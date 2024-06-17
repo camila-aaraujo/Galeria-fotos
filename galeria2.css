@@ -1,0 +1,26 @@
+img{
+    box-shadow: 10px 10px 5px #9c8d8d
+    border-radius 30px;
+    width: 300px;
+    height: 200px
+}
+body{
+    background-color: rgb(195, 185, 175)
+
+}
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 3%;
+}
+.galery{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px 70px;
+    width: 70%;
+/* justificar tudo no centro */
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 200px;
+}
